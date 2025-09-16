@@ -12,7 +12,7 @@ export default function SobreNosotros() {
             lg:-translate-y-[500px]
           "
         />
-        <div className="absolute inset-0 flex flex-col items-center text-center 
+        <div className="absolute inset-0 flex flex-col items-center text-center text-white
         
           lg:mt-20"
         >
@@ -20,7 +20,7 @@ export default function SobreNosotros() {
           <p className="
             max-w-[90%]
             lg:max-w-[50%]"
-          >Pellentesque lorem quis in auctor bibendum ullamcorper non purus dui, ultricies sit eu sit pellentesque duis vitae non est eu, quis metus aliquet laoreet.</p>
+          >Nuestra historia es sencilla, amor por la cocina y el deseo de compartirlo contigo. Creamos cada menú con la dedicación de quien cocina para sus seres queridos.</p>
         </div>
       </header>
 
@@ -28,16 +28,26 @@ export default function SobreNosotros() {
         mt-36 px-7
         -translate-y-[200px] -mb-[100px]
         md:-translate-y-[450px] md:-mb-[300px] md:px-20
-        xl:-translate-y-[28%] lg:-mb-[450px]
-        lg:mt-16 lg:px-[15%]
+        lg:mt-16 lg:px-[15%] lg:-mb-[450px]
+        xl:-translate-y-[35%] 
+        
       ">
         
       <img 
         src="sobre-nosotros.png" 
         alt="platos de comida"
         className="rounded-2xl
+          mb-20 not-lg:hidden
+          
+        "
+      />
+
+      <img 
+        src="sobre-nosotros-mobile.png" 
+        alt="platos de comida"
+        className="rounded-2xl
           mb-20
-          lg:mb-36
+          lg:hidden
         "
       />
 
