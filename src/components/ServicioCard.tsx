@@ -13,7 +13,7 @@ type ServicioCardProps = {
 export default function ServicioCard({servicio} : ServicioCardProps) {
   return (
     <div
-      className="bg-[#FFD3C8] px-8 py-5 rounded-lg flex flex-col items-start gap-3 justify-center"
+      className="bg-[#FFD3C8] px-8 py-5 rounded-lg flex flex-col items-start gap-3 justify-center shadow-xl"
     >
       <div className="bg-white p-2 rounded-full" >
         <div className="w-5 h-5 text-[#FF6D4A]">{servicio.icono}</div>
