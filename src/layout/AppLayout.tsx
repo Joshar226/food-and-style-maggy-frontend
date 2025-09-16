@@ -50,7 +50,7 @@ export default function AppLayout() {
           {/* LG Menu */}
           <div
             className="lg:flex text-lg items-center gap-12 
-              hidden
+              hidden 
               *:hover:scale-110 *:transition *:duration-300
             "
           >
