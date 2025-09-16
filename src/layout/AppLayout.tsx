@@ -69,8 +69,6 @@ export default function AppLayout() {
             p-2.5 
             md:w-10 md:h-10 md:p-2
             lg:hidden
-
-            active:hover:bg-[#630000]
           "
             onClick={() => setShowMenu(!showMenu)}
           >
@@ -150,7 +148,7 @@ export default function AppLayout() {
           <a 
             href="https://wa.link/q178gy"
             className="C_Montserrat text-white bg-[#760000] py-2.5 font-semibold rounded-lg
-              px-5 not-lg:w-[85%]
+              px-5
               md:text-xl lg:px-10
 
               hover:bg-[#630000] hover:scale-110 active:bg-[#630000] active:scale-110
@@ -162,7 +160,7 @@ export default function AppLayout() {
         </div>
       </div>
 
-      <footer className="bg-black text-white py-10 px-5
+      <footer className="bg-black text-white py-5 px-5
         text-center
         lg:text-left lg:px-[10%]
       ">
@@ -179,7 +177,7 @@ export default function AppLayout() {
               text-2xl
               md:text-3xl 
             ">Food and Style Maggy</h3>
-            <p>Donde el buen gusto y los grandes momentos se encuentran. Expertos en crear experiencias culinarias únicas para tus celebraciones.</p>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</p>
 
             <div className="flex 
               justify-center gap-10
@@ -222,8 +220,9 @@ export default function AppLayout() {
           </div>
 
           <div className="text-lg flex flex-col">
-            <Link to={'/servicios'}>Servicios</Link>
-            <Link to={'/sobre-nosotros'}>Sobre Nosotros</Link>
+            <Link to={''}>Política de Privacidad</Link>
+            <Link to={''}>Términos y Condiciones</Link>
+            <Link to={''}>Aviso Legal</Link>
           </div>
         </div>
 

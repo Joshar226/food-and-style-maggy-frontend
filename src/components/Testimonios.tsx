@@ -9,7 +9,7 @@ export default function Testimonios() {
       lg:mt-60
     ">
         <h2 className="C_titulo">Que dicen nuestros clientes</h2>
-        <p className="max-w-[75%]">Sus palabras son nuestro mayor orgullo. Cada evento es un reto que nos llena de alegría, y aquí te compartimos las historias y los momentos inolvidables que hemos creado juntos.</p>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when look</p>
 
         <div className="grid 
           grid-cols-1 gap-5

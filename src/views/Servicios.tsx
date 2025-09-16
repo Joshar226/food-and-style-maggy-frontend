@@ -6,7 +6,7 @@ export default function Servicios() {
     <>
       <header className="relative -z-10">
         <img 
-          src="bg-secundario.png" 
+          src="bg-secundario2.png" 
           alt="background servicios" 
           className="
             -translate-y-[40px]
@@ -21,7 +21,7 @@ export default function Servicios() {
           <p className="
             max-w-[90%]
             lg:max-w-[50%]"
-          >Nuestros servicios de catering están pensados para cualquier ocasión. Ya sea una boda elegante, una reunión de negocios o una fiesta privada, creamos una experiencia culinaria a tu medida.</p>
+          >Pellentesque lorem quis in auctor bibendum ullamcorper non purus dui, ultricies sit eu sit pellentesque duis vitae non est eu, quis metus aliquet laoreet.</p>
         </div>
       </header>
 
