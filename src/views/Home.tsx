@@ -5,11 +5,14 @@ import Testimonios from "../components/Testimonios";
 export default function Home() {
   return (
     <>
-      <header className="relative mt-16 lg:mt-0">
-        <div className=" flex flex-col justify-center items-start absolute inset-0 
-          pl-5 gap-2
+      <header className="
+        not-lg:mt-5
+        lg:relative"
+      >
+        <div className=" flex flex-col justify-center items-start 
+          px-5 gap-3
           md:pl-8 md:gap-4
-          lg:pl-12 lg:mt-0
+          lg:pl-12 lg:mt-0 lg:absolute lg:inset-0 
           xl:pl-40
         ">
           <h1 className="C_Old-Standard-TT uppercase italic
@@ -27,13 +30,13 @@ export default function Home() {
             max-w-[65%]
             md:max-w-[50%]  
           "
-          >Vestibulum adipiscing tortor, id vitae id posuere commodo in aliquam in ipsum porta facilisi faucibus rhoncus.</p>
+          >Delicias culinarias diseñadas para tus momentos especiales. Saborea la calidad y el servicio excepcional en cada evento.</p>
 
           <a 
             href="https://wa.link/q178gy"
-            className="C_Montserrat text-white bg-[#760000] py-2.5 rounded-lg font-medium  
-              px-5
-              md:text-lg md:px-10
+            className="C_Montserrat text-white bg-[#760000] py-2.5 rounded-lg font-medium text-center 
+              not-lg:w-full 
+              md:text-lg md:px-10 
 
               hover:bg-[#630000] hover:scale-110 active:bg-[#630000] active:scale-110
               transition-all duration-300"
@@ -45,15 +48,9 @@ export default function Home() {
           src="cta.avif"
           alt="Pierna de Cerdo con papas"
           loading="lazy"
-          className="hidden md:block"
+          className="not-lg:hidden"
         />
 
-        <img 
-          src="cta-mobile.webp" 
-          alt="Pierna de Cerdo con papas" 
-          className="md:hidden translate-y-20"
-          loading="lazy"
-        />
       </header>
 
       <main className="

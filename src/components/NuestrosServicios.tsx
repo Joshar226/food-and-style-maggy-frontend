@@ -14,14 +14,14 @@ export default function NuestrosServicios() {
       ">
         <div>
           <h2 className="C_titulo">Nuestros Servicios</h2>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when look</p>
+          <p className="max-w-[75%]">Nuestros servicios de catering están pensados para cualquier ocasión. Ya sea una boda elegante, una reunión de negocios o una fiesta privada, creamos una experiencia culinaria a tu medida.</p>
         </div>
 
         <Link 
           to={'/servicios'}
-          className="C_Montserrat text-[#760000] border-3 border-[#760000] rounded-lg font-medium py-2.5 
-            px-5 mb-5
-            lg:text-lg lg:px-10 lg:mb-0
+          className="C_Montserrat text-[#760000] border-3 border-[#760000] rounded-lg font-medium py-2.5 text-center 
+            px-5 mb-5 not-lg:w-full
+            lg:text-lg lg:px-10 lg:mb-0 lg:w-[40%]
 
             hover:bg-[#760000] hover:text-white active:bg-[#760000] active:text-white
             transition-all duration-300 "

@@ -5,14 +5,14 @@ export default function SobreNosotros() {
     <>
       <header className="relative -z-10">
         <img 
-          src="bg-secundario2.png" 
+          src="bg-secundario.png" 
           alt="background servicios" 
           className="
             -translate-y-[40px]
             lg:-translate-y-[500px]
           "
         />
-        <div className="absolute inset-0 flex flex-col items-center text-center 
+        <div className="absolute inset-0 flex flex-col items-center text-center text-white
         
           lg:mt-20"
         >
@@ -20,7 +20,7 @@ export default function SobreNosotros() {
           <p className="
             max-w-[90%]
             lg:max-w-[50%]"
-          >Pellentesque lorem quis in auctor bibendum ullamcorper non purus dui, ultricies sit eu sit pellentesque duis vitae non est eu, quis metus aliquet laoreet.</p>
+          >Nuestra historia es sencilla, amor por la cocina y el deseo de compartirlo contigo. Creamos cada menú con la dedicación de quien cocina para sus seres queridos.</p>
         </div>
       </header>
 
